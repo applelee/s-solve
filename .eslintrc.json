@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": ["standard"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "semi": ["warn", "always"],
+    "comma-dangle": "off",
+    "quotes": "off",
+    "space-before-function-paren": "off",
+    "brace-style": "off",
+    "no-dupe-class-members": "off",
+    "indent": ["warn", 4, { "FunctionDeclaration": {"body": 2, "parameters": 2}, "SwitchCase": 1 }],
+    "@typescript-eslint/no-unused-vars": ["warn", { "args": "none" }],
+    "no-useless-constructor": "off",
+    "no-tabs": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-new": "warn",
+    "no-use-before-define": "off",
+    "camelcase": "off"
+  },
+  "globals": {
+    "ENV_CONFIG": "readonly"
+  }
+}

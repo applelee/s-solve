@@ -1,0 +1,6 @@
+# eslint 需要忽略的文件或者文件夹
+dist/
+rollup.config.js
+vite.config.js
+vite.config.ts
+jest.config.js

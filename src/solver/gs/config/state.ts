@@ -1,0 +1,6 @@
+export enum ConstraintStateEnum {
+    UNDER = 'UNDER_CONSTRAINT',
+    COMPLETE = 'COMPLETE_CONSTRAINT',
+    OVER = 'OVER_CONSTRAINT',
+    OVER_UNFREE = 'OVER_UNFREE_CONSTRAINT',
+}
